@@ -18,9 +18,8 @@ int main(void)
 				for (j =48; j <= 57; j++)
 				{
 					if (((k + j) > (c + i) && k >= c) || c < k)
-					
 					{
-						putchar(c);
+			          		putchar(c);
 						putchar(i);
 						putchar(' ');
 						putchar(k);
@@ -28,12 +27,12 @@ int main(void)
 
 						if (c + i + k + j == 227 && c == 57)
 						{
-							break;
+						break;
 						}
 						else
 						{
-							putchar(',');
-							putchar(',');
+						putchar(',');
+						putchar(',');
 						}
 					}
 				}
