@@ -29,11 +29,11 @@ if (n != 55 || m != 56)
 {
 putchar(',');
 putchar(' ');
-                                        }
-                                }
-                        }
-                }
-        }
+}
+}
+}
+}
+}
 putchar('\n');
 
 return (0);
