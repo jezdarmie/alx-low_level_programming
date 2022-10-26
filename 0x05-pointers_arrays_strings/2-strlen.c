@@ -5,7 +5,7 @@
  * @s: string
  * Return: length
  */
-imt _strlen(char *s)
+int _strlen(char *s)
 {
 	int len = 0;
 
